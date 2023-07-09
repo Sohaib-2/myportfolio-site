@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python Developer Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Python Developer Portfolio</h1>
+        <img src="static/images/me.jpg" class="profile">
+        <div class="about">
+            <p>I'm an undergraduate software engineering student with a passion for Python development.
+            I have a strong foundation in software engineering principles and practices,
+            which I apply to create efficient and elegant code. With a focus on web development,
+            data analysis, and automation, I utilize Python to build practical solutions.
+            Staying updated with the latest advancements in the Python ecosystem,
+            I continuously enhance my skills to deliver high-quality results.
+            Collaboration and effective communication are essential to me,
+            and I enjoy tackling complex challenges with creativity
+        </p>
+        </div>
+        <section id="about">
+            <h4> My skills in Python development </h4>
+            <div class="container">
+                <h2>Web Application Development</h2>
+                <img src="static/images/html.png">
+                <img src="static/images/css.png">
+                <img src="static/images/js.png">
+                <img src="static/images/django.png">
+                <img src="static/images/flask.png">
+                <p>
+                As a skilled Python developer, I possess expertise in building web applications, data analysis, and automation. I have a strong command of Python programming language and have honed my skills in developing robust and efficient web solutions. My experience includes working with popular frameworks like Flask and Django, enabling me to create scalable and high-performing web applications.
+                </p>
+
+                <h2>Data Analysis and Visualization</h2>
+                <img src="static/images/numpy.png">
+                <img src="static/images/pandas.png">
+                <p>
+                In the realm of data analysis, I am well-versed in using powerful libraries such as NumPy, Pandas, and Matplotlib. Leveraging these tools, I can manipulate and visualize data to extract meaningful insights and drive informed decision-making. My expertise in data analysis allows me to provide valuable insights and facilitate data-driven processes.
+                </p>
+
+                <h2>Automation Scripting</h2>
+                <img src="static/images/selenium.png" alt="">
+                <p>
+                Automation is a key aspect of my skill set. I have developed automation scripts using Python to streamline repetitive tasks and optimize workflows. By automating routine processes, I have been able to save time and improve overall productivity. I am proficient in libraries such as Selenium and Beautiful Soup for web scraping, allowing me to extract data from websites and perform automated tasks efficiently.
+                </p>
+
+                <h2>Streamlit Web Apps</h2>
+                <img src="static/images/streamlit.png" alt="">
+                <img src="static/images/openai.png" alt="">
+                <p>
+                I have ventured into building captivating Streamlit web apps that provide interactive user experiences. Streamlit is a powerful Python library that allows for the creation of elegant and responsive web applications with minimal effort. I have utilized Streamlit to develop visually appealing and intuitive applications.
+                </p>
+
+                <h2>Integration of APIs</h2>
+                <img src="static/images/api.png" alt="">
+                <img src="static/images/openai.png" alt="">
+                <p>
+                I have experience working with various APIs, including the OpenAI APIs, to integrate cutting-edge functionalities into my applications. Leveraging APIs expands the capabilities of applications by integrating external services, such as natural language processing or image recognition, thereby enhancing their functionality and user experience. I am adept at integrating APIs seamlessly into my projects, ensuring smooth communication and optimal utilization of external services.
+                </p>
+
+                <h2>Web Scraping and Data Processing</h2>
+                <img src="static/images/bs4.jpg" alt="">
+                <img src="static/images/pandas.png" alt="">
+                <p>
+                Web scraping is another area where I excel. I have expertise in extracting valuable data from websites using Python libraries like BeautifulSoup and Scrapy. Whether it involves scraping product information, news articles, or social media data, I can develop robust and efficient web scraping scripts. Additionally, I am well-versed in working with different file formats, allowing for seamless data processing and transformation to meet specific project requirements.
+                </p>
+
+                <h2>Commitment to High-Quality Solutions</h2>
+                <p>
+                As a Python developer, I am committed to delivering high-quality, scalable, and efficient solutions that exceed expectations. I thrive on challenges and enjoy finding innovative solutions that address the unique requirements of each project. With a passion for coding and problem-solving, I constantly seek opportunities to apply my skills in Python development and collaborate with teams to bring innovative ideas to life.
+                </p>
+            </div>
+        </section>
+        <a href="{{ url_for('projects') }}" class="btn">View Projects</a>
+        <a href="{{ url_for('contact') }}" class="btn">Get in Touch</a>
+    </header>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Python Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+

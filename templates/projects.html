@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects - Python Developer Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .dropdown-content {
+            display: none;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <section id="projects">
+        <div class="container">
+            <ol>
+                <li class="dropdown">
+                    <h3>Web Application using Flask</h3>
+                    <div class="dropdown-content">
+                        <p>A portfolio web application developed using Flask framework.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <h3>Data Analysis with Pandas</h3>
+                    <div class="dropdown-content">
+                        <p>An analysis of a dataset using Pandas library to derive insights and visualize the data.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <h3>Automation Scripts using Selenium</h3>
+                    <div class="dropdown-content">
+                        <p>An automation script built with Selenium to perform repetitive tasks in a web application.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <h3>Automated Amazon price tracker</h3>
+                    <div class="dropdown-content">
+                        <p>An automation script used to track product price and send it to email automatically.</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <h3>Streamlit Web Apps</h3>
+                    <div class="dropdown-content">
+                        <p>An fictional character generator.</p>
+                        <a  target="_blank" href="https://chargenerator.streamlit.app/">Character Generator</a>
+                        <p>A memory bot with login/singup authentication.</p>
+                        <a target="_blank" href="https://chatbotui.streamlit.app/">Memorybot</a>
+                        
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Python Developer Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
